@@ -1,0 +1,15 @@
+{
+  "name": "three-backdrop",
+  "version": "1.0.0",
+  "description": "A Three.js parallax-scrolling background for your webpage.",
+  "main": "index.js",
+  "author": "Lauren Herda <lauren@laurenherda.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.15.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "scroll-fade": "https://github.com/lrenhrda/scroll-fade.git"
+  }
+}
