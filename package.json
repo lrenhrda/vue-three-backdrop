@@ -1,5 +1,5 @@
 {
-  "name": "three-backdrop",
+  "name": "view-three-backdrop",
   "version": "1.0.0",
   "description": "A Three.js parallax-scrolling background for your webpage.",
   "main": "index.js",
