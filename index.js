@@ -1,12 +1,12 @@
-const _ = require('lodash')
-const Three = require('three')
-const Common = require('./Common')
-const FixedFOVBackdropCamera = require('./FixedFOVBackdropCamera')
-const AxisIndicator = require('./ThreeAxisIndicator')
-const ShapesList = require('./ShapesList')
-const PDSGrid = require('./PoissonDiskSamplingGrid')
+import * as _ from 'lodash'
+import * as Three from 'three'
+import * as Common from './Common'
+import FixedFOVBackdropCamera from './FixedFOVBackdropCamera'
+import AxisIndicator from './ThreeAxisIndicator'
+import ShapesList from './ShapesList'
+import PDSGrid from './PoissonDiskSamplingGrid'
 
-module.exports = {
+export default {
   template: '<div class="three-backdrop"></div>',
   props: {
     skyColor: {
